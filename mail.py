@@ -11,7 +11,7 @@ msg = f'Subject: {subject}\n\n{message}'
 lirec=[]
 x = int(input("Enter no. of recipients: "))
 for k in range(x):
-	rid = input("Enter receiver Id: ")
+	rid = input("Enter receiver Id "+str(k+1)+" : ")
 	lirec.append(rid)
 for i in lirec:
 	s.sendmail("18bec045@smvdu.ac.in", i, msg) # sending the mail
