@@ -1,14 +1,13 @@
-import flask
+from flask import Flask
 import smtplib
 
 s = smtplib.SMTP('smtp.gmail.com', 587) # creates SMTP session
 s.starttls() # start TLS for security
 
 app = Flask(__name__, template_folder='templates')
-app.config['SQLALCHEMY_DATABASE_URI'] = base_url
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
+print("Please Enable 'Less secure app access' in your E-mail Account.\n")
 sid = input('Enter Sender Email Id: ')
 spass = input('Enter Sender Email Password: ')
 s.login(sid, spass) # Authentication - Enter Sender Id & Password
