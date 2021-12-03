@@ -6,13 +6,13 @@ body
     font-family: 'Arial';  
 }  
 .login{  
-        width: 382px;  
-        overflow: hidden;  
-        margin: auto;  
-        margin: 20 0 0 450px;  
-        padding: 05px;  
-        background-color: : rgba(0,0,0,0.6);  
-        border-radius: 25px ;  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 05px;  
+    background-color: : rgba(0,0,0,0.6);  
+    border-radius: 25px ;  
           
 }  
 
