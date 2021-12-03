@@ -60,12 +60,12 @@ label{
     font-size: 15px
     color: #C5B358;
 }  
-#log input:hover{  
+#log {  
     width: 300px;  
     height: 30px;  
     border: none;  
     border-radius: 17px;  
-    padding-top: 7px;  
+    padding-left: : 7px;  
     color: #996515;  
     box-shadow: 2px 2px 5px #C5B358;
     background-color: #7799d4;
