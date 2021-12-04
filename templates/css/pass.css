@@ -31,10 +31,10 @@ section {
 }
 .right{
     width: 60%;
-    height: 400px;
+    height: 300px;
     display: flex;
     align-content: center;
-    background-color:  #36454F;
+    background-color: #36454F;
     padding: 30px;
     border-radius: 8px;
     margin-left: -80px;
@@ -44,29 +44,33 @@ section {
 }
 .right h1{  
     text-align: center;  
-    color:  #FCF6F5FF ;  
-    padding-top: 55px; 
-    font-size: 30px; 
+    color: #FCF6F5FF;  
+    padding-top: 75px;  
 }
-.right h3{  
-    text-align: center;  
-    color: #FFC0CB ;  
-    padding: 5px;  
-}
-.right h2{  
-    text-align: center;  
-    color: #FFC0CB;  
-    padding: 01px;  
-    font-size: 20px;
-}  
 label{  
+     
     color: #FCF6F5FF;  
     font-size: 17px;
     text-align: left;
     width: 100px;  
+}
+#log {  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 110px;    
+    box-shadow: 2px 2px 5px #C5B358;
+    background-color: #7799d4;
+    align-items: center;
+    margin: 50px auto;
+    display: flex;
 
+    
 }  
-#Uname{  
+
+
+#Pass{  
     width: 300px;  
     height: 40px;  
     border: none; 
@@ -77,16 +81,4 @@ label{
     font-size: 15px
     color: #200000; 
     margin: auto;
-}  
-#log {  
-   width: 300px;  
-    height: 30px;  
-    border: none;  
-    border-radius: 17px;  
-    padding-left: 110px;    
-    box-shadow: 2px 2px 5px #C5B358;
-    background-color: #7799d4;
-    align-items: center;
-    margin: 50px auto;
-    display: flex;
 }  
