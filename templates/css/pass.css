@@ -39,8 +39,7 @@ section {
     border-radius: 8px;
     margin-left: -80px;
     justify-content: center;
-
-     
+    margin-top: 80px; 
 }
 .right h1{  
     text-align: center;  
