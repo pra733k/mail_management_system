@@ -2,7 +2,7 @@
 <html>    
 <head>    
     <title>Login Page</title>    
-    <link rel="stylesheet" type="text/css" href="css/style.css">    
+    <link rel="stylesheet" type="text/css" href="templates/css/style.css">    
 </head>  
 <body>
     <section>  
@@ -15,8 +15,8 @@
                 <p><a href="https://myaccount.google.com/u/0/lesssecureapps" target="_blank">For Gmail, click here.</a></p>
                 <form>
                     <label>Enter Sender's Email-Id : </label>
-                    <input class="input-field" type="text" name="sid" id="Uname" placeholder="Email" >   
-                    <input type="button" name="cont" id="log" value="Continue">          
+                    <input class="input-field" type="text" name="sid" id="Uname" placeholder="Email" action='/' method = 'post'>   
+                    <input type="submit" name="cont" id="log" value="Continue" action="{{url_for("login")}}" method="post">   
                 </form>          
                 </div>  
             </div>  
